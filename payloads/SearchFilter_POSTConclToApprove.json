@@ -1,0 +1,181 @@
+{
+    "gridName": "ConclusionsToApprove",
+    "filterName": "678$",
+    "layout": {
+    
+                      "DateRange": [
+                    {
+                        "Key": "Last 24 hours",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Last 7 days",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Last 14 days",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Last 30 days",
+                        "Checked": 1
+                    },
+                    {
+                        "Key": "Custom Range",
+                        "Checked": 0,
+                        "FromDate": "",
+                        "ToDate": ""
+                    }
+                ],
+                "Assays": [
+                    {
+                        "Key": "Babesia ",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "DENV",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "HEV",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Parvo/HAV",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Ultrio Elite",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "WNV",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "ZIKV",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "dHBV",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "dHCV",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "dHIV",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "dede",
+                        "Checked": 0
+                    }
+                ],
+                "Conclusions": [
+                    {
+                        "Key": "Nonreactive",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "LargePoolReactive",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "PoolReactive",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Reactive",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Untested",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Duplicate",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Unsolicited",
+                        "Checked": 0
+                    }
+                ],
+                "Flags": [
+                    {
+                        "Key": "Pipetting error(P)",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Skipped error(S)",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Unmixed error(U)",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Duplicate pool",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Inconsistent pool",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Manual barcode entry(M)",
+                        "Checked": 0
+                    }
+                ],
+                "InstrumentResult": [
+                    {
+                        "Key": "Nonreactive",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Reactive",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Suspect",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Invalid",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Error",
+                        "Checked": 0
+                    }
+                ],
+                "TestInstrument": [
+                    {
+                        "Key": "Panther",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "PP101",
+                        "Checked": 0
+                    }
+                ],
+                "RunStatus": [
+                    {
+                        "Key": "Valid",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Invalid",
+                        "Checked": 0
+                    },
+                    {
+                        "Key": "Retain Reactive",
+                        "Checked": 0
+                    }
+                ]
+            }
+           
+        }
+    

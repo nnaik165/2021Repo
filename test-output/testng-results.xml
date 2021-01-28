@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3944" started-at="2020-07-22T13:05:26Z" finished-at="2020-07-22T13:05:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3944" started-at="2020-07-22T13:05:26Z" finished-at="2020-07-22T13:05:30Z">
+      <class name="clientCode.getAssays">
+        <test-method status="PASS" signature="BloodstreamLogin(org.testng.ITestContext)[pri:0, instance:clientCode.getAssays@77cd7a0]" name="BloodstreamLogin" is-config="true" duration-ms="4820" started-at="2020-07-22T18:35:22Z" finished-at="2020-07-22T18:35:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5cd61783]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BloodstreamLogin -->
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:clientCode.getAssays@77cd7a0]" name="BeforeTest" is-config="true" duration-ms="1" started-at="2020-07-22T18:35:26Z" finished-at="2020-07-22T18:35:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="Assert200(java.util.Hashtable)[pri:0, instance:clientCode.getAssays@77cd7a0]" name="Assert200" duration-ms="1977" started-at="2020-07-22T18:35:27Z" data-provider="dataProvider" finished-at="2020-07-22T18:35:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EndPoint=/configuration/clientCode/assays}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assert200 -->
+        <test-method status="PASS" signature="Assert401(java.util.Hashtable)[pri:0, instance:clientCode.getAssays@77cd7a0]" name="Assert401" duration-ms="774" started-at="2020-07-22T18:35:29Z" data-provider="dataProvider" finished-at="2020-07-22T18:35:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{EndPoint=/configuration/clientCode/assays}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assert401 -->
+      </class> <!-- clientCode.getAssays -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
