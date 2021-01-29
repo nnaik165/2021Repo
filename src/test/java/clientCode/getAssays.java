@@ -24,43 +24,25 @@ public final class getAssays extends Suite{
 public static ResponseSpecification responseSpec;
 
 
+
+
+@Test
+public void TestGet200(Hashtable<String,String> dataTable)
+{
+	
+	//config.log.debug(new Object() {}.getClass().getEnclosingMethod().getName()+ " Invoked");
+	
+	String Authorization = config.property.getProperty("LoginToken");
+
+	given().
+	header("Authorization",Authorization). 
+	when().get(dataTable.get("EndPoint")).then().     
+	assertThat().statusCode(200);					                        		
+}
+
+}
+
+
+
 	 
- 	@Test(dataProviderClass = DataHandler.class,dataProvider="dataProvider")
- 	public void Assert200(Hashtable<String,String> dataTable) {
-
-
- 	responseSpec = auth.reuseAssert200();
-	Integer nv = given().header("Authorization",auth.ValidAuth).when().get(dataTable.get("EndPoint")).
-			then().spec(responseSpec).extract().path("data.content.version");
-	 	    System.out.println("newversion:" +nv);
-	 	   //body("data.content.assays.name",hasItems("Babesia","DENV","HEV","Parvo/HAV","dHBV","dHCV","dHIV","Ultrio Elite","WNV","ZIKV")).
-			
-			
-	  try{
-		 FileReader reader = new FileReader(System.getProperty("user.dir")+"//payloads//putAssays200.json");
-         JSONParser jsonParser = new JSONParser();
-	     JSONObject jsonObject = (JSONObject) jsonParser.parse(reader);
-	     jsonObject.put("version", nv);
-	   // System.out.println(jsonObject);
-	     FileWriter fW = new FileWriter(System.getProperty("user.dir")+"//payloads//putAssays200.json");
-		 fW.write(jsonObject.toString());
-		 fW.close(); 
-	     }catch (IOException ex) {
-         ex.printStackTrace();
-         }catch (ParseException ex){
-         ex.printStackTrace();
-        }  
-}
-		 @Test(dataProviderClass = DataHandler.class,dataProvider="dataProvider")
-         public void Assert401(Hashtable<String,String> dataTable) {
-			
-			responseSpec = auth.reuseAssert401();
-			given().header("Authorization",auth.InvalidAuth).when().put(dataTable.get("EndPoint")).
-			then().spec(responseSpec);
-			}
-
-}
-
-
-
-
+ 	
