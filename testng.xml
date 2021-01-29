@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Bloodstream Suite" time-out="10000">
- 
 	<listeners>
         <listener class-name="plugins.HtmlReport"/>
          
@@ -14,7 +13,7 @@
 <class name="ReusableCode.auth"/>
 
 
-<class name="GETCustomFilter.TestInfo"/>
+<class name="clientCode.getAssays"/>
 
 
 
