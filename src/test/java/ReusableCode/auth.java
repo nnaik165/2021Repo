@@ -1,8 +1,6 @@
 package ReusableCode;
 import static org.hamcrest.Matchers.lessThan;
 import java.util.concurrent.TimeUnit;
-
-import bloodstream.Suite;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.ResponseSpecification;
